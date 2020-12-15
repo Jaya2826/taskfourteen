@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskfourteenComponent implements OnInit {
 
+  isShow=true;
+  isShow1=true;
   constructor() { }
 
   ngOnInit(): void {
+  }
+  toggleDisplay()
+  {
+    this.isShow=!this.isShow;
+  }
+  toggleDisplay1()
+  {
+    this.isShow1=!this.isShow1;
   }
 
 }

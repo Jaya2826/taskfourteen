@@ -1,0 +1,23 @@
+.a-pdng{
+    padding:5px 15px;
+    border: none;
+}
+.container
+{
+    margin: 10px auto;
+    width: 50%;
+    border:5px solid gray;
+    padding:0px;
+
+}
+.td-prop
+{
+    padding:10px;
+}
+.header
+{
+    color:gray;
+    background-color: rgb(192, 191, 191);
+    padding:10px;
+    font-size: x-large;
+}
